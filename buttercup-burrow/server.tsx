@@ -1,6 +1,5 @@
 import express from 'express';
-import {data} from './data.js';
-require('dotenv').config();
+import {data} from './src/data';
 
 // const express = require('express');
 
@@ -13,6 +12,6 @@ app.get('/api/items', (req, res) => {
 });
 
 // Listen
-const PORT = process.env.PORT || 5003;
-app.listen(PORT.log(`Server listening on port http://localhost:${PORT}`)
+const PORT = process.env.PORT || 5000;
+app.listen(console.log(`Server listening on port http://localhost:${PORT}`)
 );

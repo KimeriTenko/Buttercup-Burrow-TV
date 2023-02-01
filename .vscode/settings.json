@@ -11,5 +11,6 @@
         "Tenkochan",
         "TTFB",
         "wallhangings"
-    ]
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
